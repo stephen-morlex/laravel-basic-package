@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "stephen-morlex/laravel-basic-package",
+    "description": "Basic Laravel package to learn package development",
     "keywords": [
-        ":vendor_name",
+        "stephen-morlex",
         "laravel",
-        ":package_slug"
+        "laravel-basic-package"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/stephen-morlex/laravel-basic-package",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Stephen Victor",
+            "email": "stephenvicson@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Stephenmorlex\\LaravelBasicPackage\\": "src",
+            "Stephenmorlex\\LaravelBasicPackage\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Stephenmorlex\\LaravelBasicPackage\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Stephenmorlex\\LaravelBasicPackage\\LaravelBasicPackageServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelBasicPackage": "Stephenmorlex\\LaravelBasicPackage\\Facades\\LaravelBasicPackage"
             }
         }
     },
